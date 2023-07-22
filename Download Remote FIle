@@ -3,7 +3,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Get the URL from the input field
     $url = $_POST['file_url'];
     
-    // Generate a unique filename
+    // Generate a unique filename https://trackingvrl.in/ 
     $filename = uniqid('file_') . '.pdf'; // Change the extension based on the file type
     
     // Set the path where you want to save the downloaded file
